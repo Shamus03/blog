@@ -1,6 +1,6 @@
 # Blog 📄
 
-A blog.  Uses [AstroPaper](https://github.com/satnaing/astro-paper) as a template.
+[It's a blog](https://blog.shamus.dev/).  Uses [AstroPaper](https://github.com/satnaing/astro-paper) as a template.
 
 Current ideas for blog posts:
 - github.com/Shamus03/nasa-apod-background
