@@ -1,7 +1,7 @@
 ---
 title: ChatGPT For Help With TypeScript Types
 description: An example of how I've used ChatGPT in my day-to-day job for creating an advanced TypeScript type
-pubDatetime: 2023-05-25T19:47:00-05:00
+pubDatetime: 2023-05-24T00:47:00Z
 tags:
   - typescript
   - chatgpt
