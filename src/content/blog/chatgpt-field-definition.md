@@ -128,7 +128,7 @@ Upon telling it that, I got this response:
 
 Skipping the rest of its explanation, this solution still has the same problem. It's a bit closer to the final solution but not quite there.
 
-### Getting <small>~Closer~</small> Further?
+### Getting ~Closer~ Further?
 
 I respond to ChatGPT and it says:
 
