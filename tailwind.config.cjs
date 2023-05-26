@@ -11,16 +11,10 @@ function withOpacity(variableName) {
 module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
-    // Remove the following screen breakpoint or add other breakpoints
-    // if one breakpoint is not enough for you
     screens: {
       sm: "640px",
     },
 
-    // Uncomment the following extend
-    // if existing Tailwind color palette will be used
-
-    // extend: {
     textColor: {
       skin: {
         base: withOpacity("--color-text-base"),
@@ -59,7 +53,17 @@ module.exports = {
     fontFamily: {
       mono: ["IBM Plex Mono", "monospace"],
     },
-    // },
+
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            'blockquote p:first-of-type::before': { content: 'none' },
+            'blockquote p:first-of-type::after': { content: 'none' },
+          }
+        }
+      }
+    }
   },
   plugins: [require("@tailwindcss/typography")],
 };
