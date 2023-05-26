@@ -2,7 +2,6 @@
 title: Hello, World!
 description: The first of n such that n > 0.
 pubDatetime: 2023-05-18T19:55:00-05:00
-featured: true
 tags:
   - meta
   - astro
